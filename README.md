@@ -1,221 +1,198 @@
-# Welcome
-# String Methods
 
-Automated grading of homework assignments and tests
-- fork this repository
-- solve the task
-- commit with proper message
+# **Xush kelibsiz**  
+# **String usullari**  
+Uy vazifalari va testlarni avtomatik tekshirish bo‘yicha qo‘llanma:  
+- Ushbu repozitoriyani fork qiling  
+- Masalalarni yeching  
+- To‘g‘ri commit xabarlari bilan yuklang  
 
-# Problems
-## String01
+---
 
-  A str of several words is given. All letters are lowercase. Make sure that the first letter of each word is capitalized.
+## **Masalalar**  
 
-**Example 1:**
+### **String01**  
+Berilgan bir nechta so‘zlardan iborat satrda barcha harflar kichik yozilgan. Har bir so‘zning birinchi harfini katta harf bilan boshlash kerak.  
 
+**Misol 1:**  
 ```Python
-Input: a="google is a search engine"
-Output: "Google Is A Search Engine"
+Input: a="google is a search engine"  
+Output: "Google Is A Search Engine"  
+```  
 
-```
+**Cheklovlar:**  
+- 2 <= length(a) <= 10^5  
 
-**Constraints:**
+---
 
-  - 2 <= length(a) <= 10^5
+### **String02**  
+Berilgan kichik harflardan iborat bir nechta so‘zli satrni to‘liq katta harflarga o‘tkazing.  
 
-## String02
-
- Given a string of several words, with all letters in lowercase, return the string with all letters converted to uppercase.
-
-**Example 1:**
-
+**Misol 1:**  
 ```Python
-Input: a="apple is a fruit"
-Output: "APPLE IS A FRUIT"
+Input: a="apple is a fruit"  
+Output: "APPLE IS A FRUIT"  
+```  
 
-```
+**Cheklovlar:**  
+- 2 <= length(a) <= 10^5  
 
-**Constraints:**
+---
 
-  - 2 <= length(a) <= 10^5
+### **String03**  
+Barcha harflari katta bo‘lgan bir nechta so‘zli satr berilgan. Harflarni kichik harflarga o‘tkazing va qaytaring.  
 
-## String03
-
-  A string of multiple words is provided. The letters in the string are all capitalized. Convert all of the letters in the string to lowercase and return the resulting string.
-
-**Example 1:**
-
+**Misol 1:**  
 ```Python
-Input: a="IPHONE IS A MOBILE"
-Output: "iphone is a mobile"
+Input: a="IPHONE IS A MOBILE"  
+Output: "iphone is a mobile"  
+```  
 
-```
+**Cheklovlar:**  
+- 2 <= length(a) <= 10^5  
 
-**Constraints:**
+---
 
-  - 2 <= length(a) <= 10^5
+### **String04**  
+Berilgan satr o‘zgaruvchisi faqat kichik harflardan iborat ekanligini tekshiring.  
 
-## String04
-
-  A variable of type str is given. Check that a string variable contains only lowercase letters.
-
-**Example 1:**
-
+**Misol 1:**  
 ```Python
-Input: a="codeschool"
-Output: True
+Input: a="itmarkaz"  
+Output: True  
+```  
 
-```
-
-**Example 2:**
-
+**Misol 2:**  
 ```Python
-Input: a="Mobile"
-Output: False
+Input: a="Mobile"  
+Output: False  
+```  
 
-```
-**Constraints:**
+**Cheklovlar:**  
+- 2 <= length(a) <= 10^5  
 
-  - 2 <= length(a) <= 10^5
+---
 
-## String05
+### **String05**  
+Berilgan bir nechta so‘zli satrni to‘liq bosh harf bilan boshlanadigan formatga o‘tkazing.  
 
- A string of multiple words is provided. Convert the string to be capitalized and return it.
-
-**Example 1:**
-
+**Misol 1:**  
 ```Python
-Input: a="mobile development"
-Output: "Mobile development"
+Input: a="mobile development"  
+Output: "Mobile development"  
+```  
 
-```
-
-**Example 2:**
-
+**Misol 2:**  
 ```Python
-Input: a="python programming"
-Output: "Python programming"
+Input: a="python programming"  
+Output: "Python programming"  
+```  
 
-```
-**Constraints:**
+**Cheklovlar:**  
+- 2 <= length(a) <= 10^5  
 
-  - 2 <= length(a) <= 10^5
+---
 
-## String06
+### **String06**  
+Berilgan satr faqat raqamlardan iborat ekanligini tekshiring.  
 
-  A variable of type str is given. Check that it consists only of numbers.
-
-**Example 1:**
-
+**Misol 1:**  
 ```Python
-Input: a="12345"
-Output: True
+Input: a="12345"  
+Output: True  
+```  
 
-```
-
-**Example 2:**
-
+**Misol 2:**  
 ```Python
-Input: a="2022ABC"
-Output: False
+Input: a="2022ABC"  
+Output: False  
+```  
 
-```
-**Constraints:**
+**Cheklovlar:**  
+- 2 <= length(a) <= 10^5  
 
-  - 2 <= length(a) <= 10^5
+---
 
-## String07
+### **String07**  
+Berilgan satr faqat harflardan iborat ekanligini tekshiring.  
 
-  A variable of type str is given. Check that it consists of letters only.
-
-**Example 1:**
-
+**Misol 1:**  
 ```Python
-Input: a="12345"
-Output: False
+Input: a="12345"  
+Output: False  
+```  
 
-```
-
-**Example 2:**
-
+**Misol 2:**  
 ```Python
-Input: a="2022ABC"
-Output: False
+Input: a="2022ABC"  
+Output: False  
+```  
 
-```
-**Constraints:**
+**Cheklovlar:**  
+- 2 <= length(a) <= 10^5  
 
-  - 2 <= length(a) <= 10^5
+---
 
-## String08
+### **String08**  
+Berilgan satr faqat katta harflardan iborat ekanligini tekshiring.  
 
-  A variable of type str is given. Make sure it only consists of uppercase letters.
-
-**Example 1:**
-
+**Misol 1:**  
 ```Python
-Input: a="CODESCHOOL"
-Output: True
+Input: a="ITMARKAZ"  
+Output: True  
+```  
 
-```
-
-**Example 2:**
-
+**Misol 2:**  
 ```Python
-Input: a="Mobile"
-Output: False
+Input: a="Mobile"  
+Output: False  
+```  
 
-```
-**Constraints:**
+**Cheklovlar:**  
+- 2 <= length(a) <= 10^5  
 
-  - 2 <= length(a) <= 10^5
+---
 
-## String09
+### **String09**  
+Berilgan satrda `"a"` harfi necha marta uchrashganini toping.  
 
-  A str containing the letter "a" is given. Find the number of letters "a" in this variable.
-
-**Example 1:**
-
+**Misol 1:**  
 ```Python
-Input: a="google is a search engine"
-Output: 3
+Input: a="google is a search engine"  
+Output: 3  
+```  
 
-```
-
-**Example 2:**
-
+**Misol 2:**  
 ```Python
-Input: a="Mobile development"
-Output: 0
+Input: a="Mobile development"  
+Output: 0  
+```  
 
-```
-**Constraints:**
+**Cheklovlar:**  
+- 2 <= length(a) <= 10^5  
 
-  - 2 <= length(a) <= 10^5
+---
 
-## String10
+### **String10**  
+Berilgan satrda `"x"` harfi qaysi indeksda joylashganligini toping.  
 
-  A string containing the letter "x" is given. Find the index of the letter "x" in this variable.
-
-**Example 1:**
-
+**Misol 1:**  
 ```Python
-Input: a="Mobile tpye xiomi"
-Output: 12
+Input: a="Mobile tpye xiomi"  
+Output: 12  
+```  
 
-```
-
-**Example 2:**
-
+**Misol 2:**  
 ```Python
-Input: a="iphone x is a mobile"
-Output: 7
+Input: a="iphone x is a mobile"  
+Output: 7  
+```  
 
-```
-**Constraints:**
+**Cheklovlar:**  
+- 2 <= length(a) <= 10^5  
 
-  - 2 <= length(a) <= 10^5
+---
 
-# Warning
-- don't copy other solutions or any solution
-- don't remove comments
+# **Ogohlantirish**  
+- Boshqalarning yechimlarini ko‘chirmang  
+- Hech qanday qatorni o‘chirmang  
+
