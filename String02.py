@@ -7,4 +7,6 @@ def main(s):
         str: answer
     """
     
-    return
+    return s.upper()
+s='answer to question'
+print(main(s))

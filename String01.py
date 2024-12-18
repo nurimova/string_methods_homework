@@ -7,4 +7,6 @@ def main(s):
         str: answer
     """
     
-    return
+    return s.title()
+s='if will you going to good coder in future you need learn python!'
+print(main(s))

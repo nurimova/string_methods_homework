@@ -7,4 +7,6 @@ def main(s):
         str: answer
     """
     
-    return
+    return s.index('x')
+s='5*x+4a=34'
+print(main(s))
